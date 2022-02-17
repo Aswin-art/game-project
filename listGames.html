@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./public/bootstrap5/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./public/fontawesome5/css/all.css">
+</head>
+<body>
+
+    <section id="admin">
+        <div class="row">
+            <div class="col-2 min-vh-100">
+                <nav class="navbar navbar-expand-lg navbar-dark d-flex flex-column h-100">
+                    <a href="" class="navbar-brand text-head">zuflix</a>
+                    <ul class="navbar-nav w-100 d-flex flex-column mt-3">
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-title">games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-title">user</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-title">category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-title">list Games</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-10">
+                <section id="content">
+                    <div class="container py-4">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-between">
+                                <h4 class="text-black text-title">list all games</h4>
+                                <select name="" id="">
+                                    <option disabled selected>sort all games</option>
+                                    <option>sort by newest</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <div class="row mt-3">
+                            <hr>
+                            <table class="table table-hover table-dark align-middle">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Image</th>
+                                        <th>Name</th>
+                                        <th>status</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody class="fw-bold text-uppercase">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <img src="./public/images/goingmedieval.jpg" alt="" width="200px" height="100px">
+                                        </td>
+                                        <td>going medieval</td>
+                                        <td>
+                                            <span class="badge bg-primary text-uppercase">approved</span>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-sm btn-danger text-uppercase fw-bold rounded-pill mt-1">block</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <img src="./public/images/goingmedieval.jpg" alt="" width="200px" height="100px">
+                                        </td>
+                                        <td>going medieval</td>
+                                        <td>
+                                            <span class="badge bg-warning text-uppercase">waiting</span>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-sm btn-success text-uppercase fw-bold rounded-pill mt-1">approve</button>
+                                            <button class="btn btn-sm btn-danger text-uppercase fw-bold rounded-pill mt-1">block</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <script src="./public/bootstrap5/js/bootstrap.js"></script>
+    <script src="./public/fontawesome5/js/all.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
